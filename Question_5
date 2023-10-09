@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string.h>
+using namespace std;
+
+int main(){
+    const string password="Name_1234";
+    string c;
+    while(true){
+        cout<<"Please enter the password: ";
+        cin>>c;
+        if(c==password)
+        {
+            cout<<"Correct Password is entered!!"<<endl;
+            break;
+        }
+    }
+    return 0;
+}
