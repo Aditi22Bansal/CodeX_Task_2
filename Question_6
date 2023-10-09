@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int Lower_limit;
+    cout<<"Enter the lower limit=";
+    cin>>Lower_limit;
+    int Upper_limit;
+    cout<<"Enter the upper limit=";
+    cin>>Upper_limit;
+    int i,j,c=0;
+    for(i=Lower_limit; i<Upper_limit; i++)
+    {
+        for(j=2; j<i; j++)
+        {
+            if(i%j==0)
+            {
+                break;
+            }
+            else
+            {
+                cout<<i<<"\n";
+                c =c+1;
+                break;
+            }
+        }
+        if(c==5)
+        {
+                break;
+        }
+    }
+    return 0;
+}
