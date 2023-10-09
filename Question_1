@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    float num;
+    cout<<"Please enter any number: ";
+    cin>>num;
+    cout<<"The original value is: "<<num<<endl;
+    cout<<"The type casted integer value is: "<<int(num)<<endl;
+    return 0;
+}
